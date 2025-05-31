@@ -15,7 +15,7 @@ path_initial_jsons = '../../dataset/3D-FRONT'
 des_path = 'export_objs'
 
 
-previous_generated_data = pickle.load(open('houses_data.pkl', 'rb'))
+previous_generated_data = pickle.load(open('../apartments_data/houses_data.pkl', 'rb'))
 json_files = [x['json_file'] + '.json' for x in previous_generated_data]
 json_files = [x for x in json_files if not os.path.exists(des_path + os.sep + x.replace('.json', '.obj'))]
 
