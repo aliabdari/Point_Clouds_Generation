@@ -12,3 +12,6 @@ After generating the object files of the apartments, you will have "obj" and "mt
 
 ## Generate Textual Descriptions
 To generate the Textual Descriptions for each of the apartments you can execute the [create_descriptions.py](https://github.com/aliabdari/Point_Clouds_Generation/blob/main/generate_descriptions/create_descriptions.py) module.
+
+## Licence
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/aliabdari/Point_Clouds_Generation/blob/main/LICENSE) file for details.
